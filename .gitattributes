@@ -1,0 +1,4 @@
+# Copyright (c) 2022 Daxtor134. All rights reserved.
+
+# Auto detect text files and perform LF normalization
+* text=auto
