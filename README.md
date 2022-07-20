@@ -1,10 +1,10 @@
 # MCBetterBiomes
 
-> *Current information on the branch and README file...*
-> **Current Branch**: `master`
-> **Branch Status**: **`unstable`**
-> **README Author**: [@Daxtor134](https://github.com/Daxtor134)
-> **README Updated Last**: 07/20/22 at 15:10 **MST** (Mountain Standard Time)
+> *Current information on the branch and README file...*  
+> **Current Branch**: `master`  
+> **Branch Status**: **`unstable`**  
+> **README Author**: [@Daxtor134](https://github.com/Daxtor134)  
+> **README Updated Last**: 07/20/22 at 15:10 **MST** (Mountain Standard Time)  
 
 ---
 
