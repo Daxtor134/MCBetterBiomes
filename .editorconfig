@@ -1,0 +1,26 @@
+# Copyright (c) 2022 Daxtor134. All rights reserved.
+# For more information ".editorconfig" files, see: <https://editorconfig.org>
+
+root = true
+
+[*]
+charset = utf-8-bom
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+indent_style = space
+indent_size = 4
+
+[*.gradle]
+indent_style = space
+indent_size = 4
+
+[*.toml]
+indent_style = space
+indent_size = 4
+
+[*.java]
+indent_style = tab
+indent_size = 4
