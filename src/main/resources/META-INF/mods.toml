@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="mcbetterbiomes"
+version="1.18.2-1.0.0"
+displayName="MCBetterBiomes"
+displayURL="https://github.com/Daxtor134/MCBetterBiomes"
+logoFile="examplemod.png"
+credits="Thanks to the awesome developers at Mojang and Forge and my Girlfriend!"
+authors="Daxtor134"
+description='''
+MCBetterBiomes add more biomes, mobs, materials, and much more to the Minecraft world. Making for some more interesting
+gameplay. MCBetterBiomes will also modify the Vanilla game functionality as well.
+
+Thanks to my girlfriend for giving me the idea to make Minecraft mods and making me enjoy coding once again! Thanks hun.
+'''
+
