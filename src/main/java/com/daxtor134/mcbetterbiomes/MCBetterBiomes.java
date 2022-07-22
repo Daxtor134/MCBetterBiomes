@@ -29,7 +29,7 @@ public class MCBetterBiomes
 		modEventBus.addListener(this::enqueueIMC);
 		modEventBus.addListener(this::processIMC);
 
-		ModObjectRegistry.register(modEventBus);
+		ModObjectUtils.registerObjects(modEventBus);
 
 		MinecraftForge.EVENT_BUS.register(this);
 	}
