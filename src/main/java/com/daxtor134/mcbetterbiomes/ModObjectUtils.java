@@ -18,8 +18,8 @@ import java.util.function.Supplier;
 
 public class ModObjectUtils
 {
-	private static final DeferredRegister<Block> MOD_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MCBetterBiomes.MOD_ID);
-	private static final DeferredRegister<Item> MOD_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MCBetterBiomes.MOD_ID);
+	public static final DeferredRegister<Block> MOD_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MCBetterBiomes.MOD_ID);
+	public static final DeferredRegister<Item> MOD_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MCBetterBiomes.MOD_ID);
 
 	public static void registerObjects(IEventBus eventBus)
 	{
@@ -53,26 +53,35 @@ public class ModObjectUtils
 		return returnObject;
 	}
 
+	// ******************************************************************************************************************
+	// Mod Items and Blocks. Each object will a comment signifying whether it is an Item or a Block.
+
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> REDWOOD_LOG = registerBlock("redwood_log",
 		() -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(9.0f).sound(SoundType.WOOD)),
 		CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> REDWOOD_WOOD = registerBlock("redwood_wood",
 		() -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(9.0f).sound(SoundType.WOOD)),
 		CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> STRIPPED_REDWOOD_WOOD = registerBlock("stripped_redwood_wood",
 		() -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(9.0f).sound(SoundType.WOOD)),
 		CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> STRIPPED_REDWOOD_LOG = registerBlock("stripped_redwood_log",
 		() -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(9.0f).sound(SoundType.WOOD)),
 		CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> REDWOOD_PLANKS = registerBlock("redwood_planks",
 		() -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0f).sound(SoundType.WOOD)),
 		CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	@SuppressWarnings("unused") // Block w/ Forge Tags.
 	public static final RegistryObject<Block> REDWOOD_LEAVES = registerBlock("redwood_leaves",
 		() -> new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES).noOcclusion()
 			.strength(0.2f).sound(SoundType.GRASS)), CreativeModeTab.TAB_BUILDING_BLOCKS);
