@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mcbetterbiomes:block/redwood_log",
+    "side": "mcbetterbiomes:block/redwood_log"
+  }
+}
